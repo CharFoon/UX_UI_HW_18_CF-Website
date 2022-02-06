@@ -1,0 +1,173 @@
+header {
+  display: inline-block;
+  position: relative;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: medium;
+  background-color: none;
+}
+
+.CFlogo {
+  width: 60px;
+  padding: 30px;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2E2F40;
+  letter-spacing: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.topnav {
+display: inline-block;
+line-height: 32px;
+align-items: center;
+}
+
+body {
+  margin: 0%;
+  background-color: #FFFFFF;
+}
+
+.DRbutton {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #6768A6;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  align-items: right;
+  float: right;
+}
+
+section.Intro {
+  display: inline-block;
+}
+
+.left {
+  width 70%
+  height: 100px;
+  float: left;
+}
+
+.right{
+  width: 30%;
+  height: 50px;
+  float: right;
+}
+.content {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 88px;
+  line-height: 80px;
+  text-align: left;
+  color: #6768A6;
+}
+
+.Hi {
+  height: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 133.818px;
+  line-height: 20px;
+  text-align: left;
+
+  /* Portfolio - PUR3 */
+
+  color: #ADAEF2;
+}
+h2 {
+  position: static;
+  width: 648px;
+  height: 0px;
+  left: 20px;
+  top: 80.59px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 53px;
+  line-height: 10px;
+  text-align: left;
+  color: #6768A6;
+}
+
+h3 {
+position: static;
+width: 648px;
+height: 60px;
+left: 20px;
+top: 106.59px;
+text-align: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 31px;
+color: #6768A6;
+}
+
+.introCopy {
+  margin: 0;
+}
+
+p {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+text-align: left;
+}
+
+footer {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+text-align: left;
+background-color: #6768A6;
+color: #FFFFFF;
+}
+
+ul {
+display: inline-block;
+width: auto;
+list-style-type: none;
+margin: 30px;
+padding: 20px;
+float: inline-start
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: right;
+}
+
+.DRcopy {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.bodycopy {
+  background-color: #2E2F40;
+  color: white;
+  padding: 100px;
+  ;
+
+}
