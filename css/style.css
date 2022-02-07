@@ -1,8 +1,8 @@
 body {
-  margin: 0;
   font-family: Roboto;
   font-weight: 300px;
   font-size: 14px;
+  margin: auto;
 }
 .logo {
 width: 50px;
@@ -26,6 +26,36 @@ header li {
 header p {
   display: inline-block;
 }
+
+section .RecentProjects {
+  margin: 40px;
+  background-color:#ADAEF2;
+}
+
+.RecentProjects {
+  background-color:#ADAEF2;
+  padding: 110px;
+}
+
+.AGCERImage {
+  width: 60%;
+  float: right;
+  border-radius: 30px;
+  padding-bottom: 92px;
+}
+
+.CaseStudy1 {
+  padding-bottom: 117px;
+  padding-top: 1px;
+  background-color: #ADAEF2;
+}
+
+.KyndliImage {
+  width: 60%;
+  float: right;
+  border-radius: 30px;
+  padding-bottom: 92px;
+
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
@@ -37,6 +67,7 @@ header p {
   background-color: #FFFFFF;
   text-align: center;
 }
+
 button {
   padding: 15px;
   background-color: #373738;
@@ -55,6 +86,7 @@ float: left;
 footer ul {
   list-style: none;
   padding-left: 5px;
+  padding-right: 5px;
 }
 
 footer li {
@@ -102,7 +134,7 @@ padding: 30px; 0;
   text-decoration: none;
   font-size: 14px;
   color: white;
-  background-color:#2E2F40
+  background-color:#2E2F40;
   border-radius: 16px;
 }
 
@@ -112,7 +144,7 @@ padding: 30px; 0;
   padding-left: 100px;
 }
 
-.h1 {
+h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -120,34 +152,33 @@ padding: 30px; 0;
   line-height: 103px;
 }
 
-.h2 {
-  font-family: Roboto;
+h2 {
+font-family: Roboto;
 font-style: normal;
 font-weight: 300;
 font-size: 53px;
 line-height: 52px;
 }
 
-.h3 {
+h3 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 40px;
 }
 
-.h4 {
+h4 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 31px;
-  line-height: 18px;
+  line-height: 9px;
 }
 
-.h5 {
+h5 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 0px;
 }
