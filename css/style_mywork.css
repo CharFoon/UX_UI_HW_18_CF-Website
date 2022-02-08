@@ -2,6 +2,7 @@ body {
   font: Roboto;
   margin: auto;
 }
+
 .logo {
 width: 70px;
 }
@@ -10,7 +11,8 @@ width: 70px;
 width: 70px; 
 }
 
-header {
+header .navmenu {
+  margin: auto;
   padding: 20px;
   background-color:#FFFFFF;
   display: flexbox;
@@ -39,12 +41,13 @@ button {
   color:#2E2F40
 }
 
-.content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
-  text-align: center;
+.ViewCSbutton {
+  background-color:#2E2F40;
+  color: #FFFFFF;
+}
+
+section {
+  padding top: 50px;
 }
 
 h1 {
@@ -75,7 +78,7 @@ h4 {
   font-style: normal;
   font-weight: 300;
   font-size: 31px;
-  line-height: 9px;
+  line-height: 7px;
 }
 
 h5 {
@@ -86,22 +89,6 @@ h5 {
   line-height: 32px;
 }
 
-footer {
-  font: Roboto;
-  font-size: 14px;
-  background-color: #373738;
-  padding: 5px;
-  color: white;
-}
-footer ul {
-  list-style: none;
-  padding-left: 5px;
-  margin: auto;
-}
-footer li {
-  display: inline-block;
-  padding: 0px 7px;
-}
 body {
   margin: 0;
 }
@@ -121,78 +108,79 @@ header p {
   display: inline-block;
 }
 
-.IntroCopy{
-padding: 100px; 0px; 100px; 0px
+.IntroCopy {
+padding-top: 50px;
+padding-bottom: 50px;
 font: Roboto;
+padding: 110px;
 color: #6768A6;
 }
 
-.MyStory {
-  padding-top: 12%;
-  padding-bottom: 5%;
+.CSHeader {
+  font-size: 35px;
+  line-height: 38px;
 }
 
-.CharPortrait {
-  width: 70%;
-  float: right;
-  padding: 0;
-  border-radius: 30px;
-}
-
-section .StoryCopy {
-  padding: 75px;
-  background-color: #2E2F40;
-}
-
-section .StoryCopy {
-  color: #FFFFFF;
-  background-color: #2E2F40;
-}
-
-/* <!-- My UX Skills section coded using CSS flex --> */
-
-.SkillsTools {
+#CaseStudies {
+  padding: 110px;
+  padding-top: 0px;
   display: flex;
-  align-items: flex-start;
-  background-color:#2E2F40;
-  padding: 75px;
-  justify-content: center;
-  justify-content: space-around;
+  color: #6768A6;
+  background-color: black
+  margin: 0; auto;
+  display: grid;
+    grid-template-areas: 
+    "AGCER AGCERimg"
+    "Kyndli Kyndlimg"
+    "YBH YBHimg";
 }
 
-#Skills {
-  color: #FFFFFF;
-  border: 2px solid white;
-  border-radius: 16px;
-  outline:#FFFFFF;
-  margin: 10px;  
-  padding: 25px;
-  padding-right: 5%;
-  text-align: left;
+
+.AGCER {
+  padding-right: 10px;
 }
 
-#Tools {
-  color: #FFFFFF;
-  border: 2px solid white;
-  border-radius: 16px;
-  outline:#FFFFFF;
-  margin: 10px;  
-  padding: 25px;
-  padding-right: 5%;
-  text-align: left;
+.AGCERimg {
+  width: 700px;
+  padding: 20px; 0; 20px; 0;
+  border-radius: 40px;
 }
 
-#Skills ul {
-  line-height: 1px;
+.Kyndli {
+  padding-right: 10px;
+}
+
+.Kyndlimg {
+  width: 700px;
+  padding: 20px; 0; 20px; 0;
+  border-radius: 40px;
+}
+
+.Kyndli h4 {
+  line-height: 100%;
+}
+
+.YBH {
+  padding-right: 10px;
+}
+
+.YBHimg {
+  width: 700px;
+  padding: 20px; 0; 20px; 0;
+  border-radius: 40px;
+}
+
+.YBH h4 {
+  line-height: 100%;
 }
 
 footer {
-  margin: auto;
+  color: #FFFFFF;
   font-family: Roboto;
   font-weight: 400;
   background-color: #6768A6;
   padding: 30px;
-  width: auto
+  width: 100%;
   float: left;
 }
 
@@ -242,16 +230,6 @@ padding: 30px; 0;
   font-weight: 400;
   color: #2E2F40;
   background-color: white;
-  border-radius: 16px;
-}
-
-.ViewCSbutton {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  font-size: 16px;
-  color: white;
-  background-color:#2E2F40;
   border-radius: 16px;
 }
 
