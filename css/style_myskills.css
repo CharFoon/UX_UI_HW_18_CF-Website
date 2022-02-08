@@ -40,10 +40,6 @@ a {
   background-color: #6768A6;
 }
 
-.heroImg {
-  background-color: #EBEBEB;
-  padding: 100px 15px;
-}
 .content {
   max-width: 300px;
   margin: 0 auto;
@@ -58,14 +54,6 @@ button {
   color:#2E2F40
   font-size: 15px;
   border-radius: 16px;
-}
-
-.Hi {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 133.818px;
-  line-height: 1px;
 }
 
 h1 {
@@ -143,62 +131,69 @@ header p {
 }
 
 .IntroCopy{
-padding: 100px;
+padding: 100px; 0px; 100px; 0px
 font: Roboto;
-padding: 110px;
 color: #6768A6;
 }
 
-.wavingHand {
-  width: 50%;
-  float: right;
+.MyStory {
+  padding-top: 12%;
+  padding-bottom: 5%;
 }
 
-section .RaiseChild {
+.CharPortrait {
+  width: 70%;
+  float: right;
+  padding: 0;
+  border-radius: 30px;
+}
+
+section .StoryCopy {
+  padding: 75px;
+  background-color: #2E2F40;
+}
+
+section .StoryCopy {
   color: #FFFFFF;
   background-color: #2E2F40;
-  padding: 110px;
 }
 
-section .RecentProjects {
-  margin: 40px;
-  background-color:#ADAEF2;
+/* <!-- My UX Skills section coded using CSS flex --> */
+
+.SkillsTools {
+  display: flex;
+  align-items: flex-start;
+  background-color:#2E2F40;
+  padding: 75px;
+  justify-content: center;
 }
 
-.RecentProjects {
-  background-color:#ADAEF2;
-  padding: 110px;
+#Skills {
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 16px;
+  outline:#FFFFFF;
+  margin: 10px;  
+  padding: 25px;
+  padding-right: 5%;
+  text-align: left;
 }
 
-.AGCERImage {
-  width: 50%;
-  float: right;
-  border-radius: 30px;
+#Tools {
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 16px;
+  outline:#FFFFFF;
+  margin: 10px;  
+  padding: 25px;
+  padding-right: 5%;
+  text-align: left;
 }
 
-.KyndliImg {
-  width: 50%;
-  float: right;
-  border-radius: 30px;
+#Skills ul {
+  line-height: 1px;
 }
 
-.CaseStudy {
-  padding-bottom: 100px;
-  padding-top: 1px;
-  background-color: #ADAEF2;
-}
-
-.heroImg {
-  background-color: #EBEBEB;
-  padding: 100px 15px;
-}
-.content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
-  text-align: center;
-}
 button {
   padding: 15px;
   background-color: white;
@@ -216,7 +211,6 @@ footer {
   width: auto
   float: left;
 }
-
 
 footer ul {
   list-style: none;
