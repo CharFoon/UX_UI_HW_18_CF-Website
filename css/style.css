@@ -1,60 +1,44 @@
 body {
-  font-family: Roboto;
-  font-weight: 300px;
-  font-size: 14px;
+  font: Roboto;
   margin: auto;
 }
 .logo {
-width: 50px;
+width: 70px;
 }
 
-.menu {
-  color: #2E2F40;
+.logo2 {
+width: 70px; 
 }
+
 header {
-  background-color: none;
   padding: 20px;
+  background-color:#FFFFFF;
+  display: flexbox;
 }
-header ul {
+
+ul a {
   float: right;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300px;
+  color: white
+  text-decoration: none;
+}
+
+a {
   color: white;
+  text-decoration: none;
+  padding: 30px;
 }
-header li {
+
+.DRMenuButton {
+  border-radius: 16px;
+  padding-right: 20px;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 20px;
+  color:#FFFFFF
+  background-color: #6768A6;
 }
-header p {
-  display: inline-block;
-}
-
-section .RecentProjects {
-  margin: 40px;
-  background-color:#ADAEF2;
-}
-
-.RecentProjects {
-  background-color:#ADAEF2;
-  padding: 110px;
-}
-
-.AGCERImage {
-  width: 60%;
-  float: right;
-  border-radius: 30px;
-  padding-bottom: 92px;
-}
-
-.CaseStudy1 {
-  padding-bottom: 117px;
-  padding-top: 1px;
-  background-color: #ADAEF2;
-}
-
-.KyndliImage {
-  width: 60%;
-  float: right;
-  border-radius: 30px;
-  padding-bottom: 92px;
 
 .heroImg {
   background-color: #EBEBEB;
@@ -70,78 +54,18 @@ section .RecentProjects {
 
 button {
   padding: 15px;
-  background-color: #373738;
-  color: white;
+  background-color:#FFFFFF;
+  color:#2E2F40
   font-size: 15px;
-  border-radius: 4px;
-}
-footer {
-  background-color: #6768A6;
-  padding: 5px;
-  color: white;
-  width: 100%;
-float: left;
-}
-
-footer ul {
-  list-style: none;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-footer li {
-  display: inline-block;
-  padding: 10px 15px;
-  align-items: center;
-}
-
-.LinkedIn, .Pinterest, .Twitter {
-width: 8px;
-padding: 30px; 0;
-}
-
-.Twitter {
-  padding-right: 100px;
-}
-
-.LinkedIn {
-  padding-left: 80px;
-}
-
-.tel {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.email {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.footerbutton {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  font-size: 14px;
-  color: #2E2F40;
-  background-color: white;
   border-radius: 16px;
 }
 
-.ViewCSbutton {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  font-size: 14px;
-  color: white;
-  background-color:#2E2F40;
-  border-radius: 16px;
-}
-
-.copyright {
-  font-size: 12px;
-  font-weight: 300;
-  padding-left: 100px;
+.Hi {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 133.818px;
+  line-height: 1px;
 }
 
 h1 {
@@ -149,7 +73,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   font-size: 88px;
-  line-height: 103px;
+  line-height: 80px;
 }
 
 h2 {
@@ -180,5 +104,180 @@ h5 {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 0px;
+  line-height: 32px;
+}
+
+footer {
+  font: Roboto;
+  font-size: 14px;
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  margin: auto;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+
+.IntroCopy{
+padding: 100px;
+font: Roboto;
+padding: 110px;
+color: #6768A6;
+}
+
+.wavingHand {
+  width: 50%;
+  float: right;
+}
+
+section .RaiseChild {
+  color: #FFFFFF;
+  background-color: #2E2F40;
+  padding: 110px;
+}
+
+section .RecentProjects {
+  margin: 40px;
+  background-color:#ADAEF2;
+}
+
+.RecentProjects {
+  background-color:#ADAEF2;
+  padding: 110px;
+}
+
+.AGCERImage {
+  width: 50%;
+  float: right;
+  border-radius: 30px;
+}
+
+.KyndliImg {
+  width: 50%;
+  float: right;
+  border-radius: 30px;
+}
+
+.CaseStudy {
+  padding-bottom: 100px;
+  padding-top: 1px;
+  background-color: #ADAEF2;
+}
+
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: white;
+  color:#ADAEF2;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+footer {
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: #6768A6;
+  padding: 30px;
+  width: 100%;
+  float: left;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.LinkedIn, .Pinterest, .Twitter {
+width: 8px;
+padding: 30px; 0;
+}
+
+.Twitter {
+  padding-right: 100px;
+}
+
+.LinkedIn {
+  padding-left: 80px;
+}
+
+.tel {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.email {
+  font: Roboto;
+  size: 16px;
+  font-weight: 300;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footerbutton {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2E2F40;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.ViewCSbutton {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  background-color:#2E2F40;
+  border-radius: 16px;
+}
+
+.copyright {
+  font: Roboto;
+  font-weight: 300;
+  font-size: 12pt;
+  padding-left: 100px;
 }
