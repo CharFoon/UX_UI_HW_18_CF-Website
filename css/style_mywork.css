@@ -3,34 +3,48 @@ body {
   margin: auto;
 }
 
-.logo {
-width: 70px;
-}
-
 .logo2 {
-width: 70px; 
+width: 80px; 
+padding-right: 20px;
 }
 
-header .navmenu {
-  margin: auto;
+header {
+  float: left;
+  width: 100%;
+  padding-bottom: 10%;
+
+}
+
+.navbar {
+  background-color: none;
+  margin: 0;
   padding: 20px;
-  background-color:#FFFFFF;
-  display: flexbox;
-}
 
-ul a {
-  float: right;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 300px;
-  color: white
-  text-decoration: none;
 }
 
 a {
-  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
-  padding: 30px;
+  color:#2E2F40;
+  padding: 50px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: inline;
+}
+
+.DRMenuButton {
+  border: 1px solid;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #6768A6;
+  font-weight: 500;
 }
 
 button {
@@ -38,7 +52,7 @@ button {
   border-radius: 16px;
   padding: 15px;
   background-color: white
-  color:#2E2F40
+  color: #2E2F40;
 }
 
 .ViewCSbutton {
@@ -92,21 +106,6 @@ h5 {
 body {
   margin: 0;
 }
-header {
-  background-color: #373738;
-  padding: 15px;
-}
-header ul {
-  float: right;
-  color: white;
-}
-header li {
-  display: inline-block;
-  padding: 0px 5px;
-}
-header p {
-  display: inline-block;
-}
 
 .IntroCopy {
 padding-top: 50px;
@@ -124,11 +123,11 @@ color: #6768A6;
 #CaseStudies {
   padding: 110px;
   padding-top: 0px;
-  display: flex;
   color: #6768A6;
-  background-color: black
   margin: 0; auto;
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "AGCER AGCERimg"
     "Kyndli Kyndlimg"
@@ -141,7 +140,8 @@ color: #6768A6;
 }
 
 .AGCERimg {
-  width: 700px;
+  max-width: 100%;
+  height: auto;
   padding: 20px; 0; 20px; 0;
   border-radius: 40px;
 }
@@ -151,7 +151,8 @@ color: #6768A6;
 }
 
 .Kyndlimg {
-  width: 700px;
+  max-width: 100%;
+  height: auto;
   padding: 20px; 0; 20px; 0;
   border-radius: 40px;
 }
@@ -165,7 +166,8 @@ color: #6768A6;
 }
 
 .YBHimg {
-  width: 700px;
+  max-width: 100%;
+  height: auto;
   padding: 20px; 0; 20px; 0;
   border-radius: 40px;
 }
@@ -238,4 +240,23 @@ padding: 30px; 0;
   font-weight: 300;
   font-size: 12pt;
   padding-left: 100px;
+}
+
+/* <!-- My Work Section Constructed for media query --> */
+
+@media only screen and (max-width: 600) {
+
+#CaseStudies {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+    grid-template-areas: 
+    "AGCER" 
+    "AGCERimg"
+    "Kyndli"
+    "Kyndlimg"
+    "YBH" 
+    "YBHimg"
+    ; 
+  }
 }
