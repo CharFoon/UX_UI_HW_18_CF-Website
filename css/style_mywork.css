@@ -242,7 +242,7 @@ padding: 30px; 0;
 
 /* <!-- My Work Section Constructed for media query --> */
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
 
 #CaseStudies {
   display: grid;
